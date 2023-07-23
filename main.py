@@ -12,6 +12,7 @@ F = 0
 x_des = np.ones(len(t))
 model_x = []
 
+# задаем значения p, d, i, f
 P_hist, D_hist, I_hist, F_hist = [], [], [], []
 for i in range(len(t)):
     model_x.append(model.update(F))
